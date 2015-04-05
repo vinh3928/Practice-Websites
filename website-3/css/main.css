@@ -9,12 +9,12 @@ MENU
 
 .menu {
     display:block;
-    position: absolute;
+    position: fixed;
     z-index: 2;
     width: 320px;
     height: 1000px;
     background-color:white;
-    background-image: url('../img/seamless_paper_texture.png');
+    background-image: url('../img/Pattern2.jpg');
     left: -320px;
 }
 
@@ -28,9 +28,9 @@ header li {
     list-style-type: none;
     width:205px;
     margin: 10px;
-    border: 2px solid black;
     padding: 5px;
     text-align: center;
+    background-color: hsla(0,100%,100%, 1 );
 }
 .icon-menu {
     background-color:white;
@@ -59,6 +59,13 @@ header li {
     top: 12px;
     left: 140px;
     
+}
+
+body {
+    left:0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
 }
 
 /********************
